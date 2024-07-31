@@ -991,14 +991,21 @@ aside div{
             .gastronomia{
                 height: 210px;
                 width: 100%;
+                padding: 0 20px;
+            }
+            .gastronomia div{
+                height: 210px;
+                width: 100%;
             }
             
             .gastronomia h2{
                 font-size: 15px;
+                margin-top: 30px;
             }
             .gastronomia p{
                 font-size: 5px;
                 padding: 0 100px;
+                margin-left: -100px;
             }
             .gastronomia img{
                 width: 100px;
@@ -1033,13 +1040,10 @@ aside div{
 
             
             .contenedor-contacto{
-                width: 1200px;
-                height: 900px;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: nowrap;
-                padding: 100PX;
-                background-color:#ffffff;
+                width: auto;
+                height: 300px;
+                padding: 1PX;
+
                 
             }
             
@@ -1052,50 +1056,43 @@ aside div{
             }
             
             label{
-                font-size: 1.25rem;
-                padding-top: 40px;
+                font-size: 7px;
+                padding-top: 10px;
             
             
             }
             
             input,textarea{
-                background-color: #EFEFEF;
-                border: .125rem solid #EFEFEF;
-                height: 60px;
+                font-size: 7px;
+                height: 20px;
             }
             
             textarea{
-                height: 250px;
+                height: 70px;
             }
             
             aside{
-                width: 1000px;
-                height: 900px;
+                width: auto;
+                height: 200px;
                 flex-direction: row;
-                flex-wrap: nowrap;
-                align-items: center;
-                background-color:#ffffff;
-                text-align: center;
-                padding: 110px 300px;
+                padding: 0 30px;
             }
             
             aside h2{
-                font-size: 20px;
+                font-size: 10px;
                 font-weight: 900;
+                
             }
             
             aside p{
-                font-size: 9px;
+                font-size: 4px;
             }
             
             aside div{
-                margin: 50px;
+                margin: 1px;
+                padding: 10px 5px;
             }
-            
-            .copyright-dos{
-                display: flex;
-                align-items: center;
-            }
+        
             
             .copyright-dos img{
                 width: 30px;
@@ -1104,16 +1101,16 @@ aside div{
             }
             
             .logo-dos{
-                width: 100%;
-                height: 30px;
+                width: 56px;
+                height: 20px;
             }
             
             .seccion-contacto{
-                height: 300px;
+                height: 200px;
             }
             
             .titulo{
-                font-size: 30px;;
+                font-size: 20px;;
                 padding-top: 20px;
             }
             
@@ -1124,7 +1121,137 @@ aside div{
                 margin-top: 20px;
             }
 
-            .contacto aside{
+            .contacto{
                 display: flex;
+                flex-direction: column;
             }
+
+            .UBICACION{
+                height: 300px;
+            }
+            
+            .UBICACION h1{
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            .box-ubicacion{
+                width: 80px;
+                height: 150px;
+                border-radius: 8px;
+                padding: 20px 20px;
+                flex-direction: column;
+            }
+            .box-ubicacion img{
+                width: 50px;
+                height: 30px;
+                border-radius: 5px;
+            }
+            .box-ubicacion div{
+                padding: 1px;
+                margin-top: 5px;
+            }
+            .box-ubicacion h2{
+                font-size: 13px;
+                font-weight: 900;
+            }
+            .box-ubicacion p{
+                font-size: 4px;
+                font-weight: 700;
+            }
+            .container-ubicacion{
+                flex-direction: row;
+                padding: 10px 0px;
+            }
+
+        .seccion-ubicacion{
+            height: 300px;
+            background-color: #f0f0f0;
+        }
+
+        .box-experiencia{
+            width: 290px;
+            height: 150px;
+            border-radius: 8px;
+            padding: 10px 20px;
+            margin: 20px;
+        }
+        
+        .box-experiencia .usuaria{
+            width: 40px;
+            height: 40px;
+        }
+        
+        .box-experiencia img{
+            height: 20px;
+            width: 65px;
+        }
+        
+        .box-experiencia h1{
+            font-size: 10px;
+        }
+        
+        .box-experiencia p{
+            font-size: 6px;
+        }
+        
+        
+        .boton-experiencia{
+            padding: 2px 5px;  
+            font-size: 8px;
+            border-radius: 1.875rem;
+            margin: 10px;
+        }
+
+        .grid{
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows:repeat(8,1fr);
+            background-size: 100%;
+            height: 500px;
+        }
+        .grid img{
+            width: 270px;
+            height: 370px;
+            grid-column: 3/9;
+            grid-row: 3/8;
+        }
+        
+        .grid h2{
+            font-size: 30px;
+            grid-column: 3/8;
+            grid-row: 3/5;
+        }
+        
+        .grid p{
+            font-size: 6px;
+            grid-row: 7/8;
+            grid-column: 3/9;
+        }
+
+        .box-nosotros{
+            padding: 1px 1px;
+            grid-row: 4/4;
+            grid-column: 3/3;
+            object-fit: contain;
+            border-radius: 13px;
+        }
+        .box-nosotros h3{
+            font-size: 20px;
+            margin-top: 5px; 
+        }
+        .box-nosotros .diez{
+            font-size: 30px;
+            margin-top: -1px;
+            margin-left: -20px;
+        }
+        
+        .box-nosotros .años{
+            font-size: 10px;
+            margin-top: -18px;
+            margin-left: 40px;
+            padding-bottom: 10px;
+        }
+        
+        .box-nosotros h4{
+            font-size: 10px;
+        }
 }
