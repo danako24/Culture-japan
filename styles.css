@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -16,20 +18,26 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 4px 0px;
+    padding: 4rem 0;
     position:sticky;
     top:0;
-    width: 100%; 
+    width: 100%;
+    height: 6.25rem; 
 }
 header img{
-    width: 130px;
-    margin: 30px;
+    width: 8.125rem;
+    margin: 1.875rem;
+}
+
+.list{
+    color: #ffffff;
+    display: none;
 }
 
 .navbar{
     display: flex;
-    gap: 90px;
-    padding-right: 20px;
+    gap: 5.625rem;
+    padding-right: 1.25rem;
     
 }
 
@@ -45,7 +53,7 @@ header img{
     background-position:center;
     display: flex;
     width: 100%;
-    height: 1100px;
+    height: 68.75rem;
 }
 
 .inicio div{
@@ -54,7 +62,7 @@ header img{
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 0px 900px 0 400px;
+    margin: 0 56.25rem 0 25rem;
 }
 
 .inicio h1{
@@ -73,11 +81,11 @@ header img{
         background-color:#E01919 ;
         border: none;
         color: white;
-        padding: 15px 40px;  
+        padding: .9375rem 2.5rem;  
         text-decoration: none;
         font-size: 1.25rem;
         border-radius: 1.875rem;
-        margin: 30px;
+        margin: 1.875rem;
 }
 
 .arquitectura{
@@ -86,7 +94,7 @@ header img{
         background-position:center;
         display: flex;
         width: 100%;
-        height: 1100px;
+        height: 68.75rem;
     }
 
 
@@ -96,21 +104,21 @@ header img{
         align-items: center;
         flex-direction: column;
         flex-wrap: nowrap;
-        margin: 0 500px;
+        margin: 0 31.25rem;
     }
 
 .arquitectura img{
-    height: 300px;
-    width: 595px;
-    border-radius: 20px;
-    padding-bottom: 20px;
+    height: 18.75rem;
+    width: 37.1875rem;
+    border-radius: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 .arquitectura h2{
     font-size:clamp(5em, 5vw, 5em);
     font-weight: bold;
-    padding-top: 150px;
-    padding-bottom: 20px;
+    padding-top: 9.375rem;
+    padding-bottom: 1.25rem;
 }
 
 .arquitectura p{
@@ -122,105 +130,102 @@ header img{
 .vestimenta{
     background-image: url(./assets/japonesapng_Mesa\ de\ trabajo\ 1_Mesa\ de\ trabajo\ 1-01.png);
     background-color: #E4E4E4;
-    height: 1200px;
+    height: 75rem;
     width: 100%;
     display: flex;
     background-size:cover;
     background-position: center;
-    padding: 0 700px 0px 700px;
+    padding: 0 43.75rem 0 43.75rem;
 }
 
 .vestimenta h2{
-    font-size: 105px;
+    font-size: 6.5625rem;
     font-weight: bold;
-    margin-top: 500px;
-    margin-left: 350px;
+    margin-top: 31.25rem;
+    margin-left: 21.875rem;
 }
 
 .vestimenta p{
-    margin-left: 350px;
+    margin-left: 21.875rem;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 .boton-tres{
     background-color:#E01919 ;
     border: none;
     color: white;
-    padding: 10px 40px;  
+    padding: .625rem 2.5rem;  
     text-decoration: none;
     font-size: 1.25rem;
     font-family: montserrat;
     border-radius: 1.875rem;
-    margin-left: 600px;
+    margin-left: 37.5rem;
 }
 .gastronomia{
     background-image: url(./assets/seccion\ final-01.png);
     background-color: #E4E4E4;
-    height: 1200px;
+    height: 75rem;
     width: 100%;
     display: flex;
     background-size:cover;
     background-position: center;
-    padding: 0 800px 0px 300px;
+    padding: 0 50rem 0 18.75rem;
 }
 
 .gastronomia h2{
-    font-size: 105px;
+    font-size: 6.5625rem;
     font-weight: bold;
-    margin-top: 500px;
+    margin-top: 31.25rem;
 
 }
 .gastronomia p{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 .gastronomia img{
-    width: 600px;
-    height: 550px;
-    margin: 400px 100px;
+    width: 37.5rem;
+    height: 34.375rem;
+    margin: 25rem 6.25rem;
 }
 
 .boton-cuatro{
     background-color:#E01919 ;
     border: none;
     color: white;
-    padding: 10px 40px;  
+    padding: .625rem 2.5rem;  
     text-decoration: none;
     font-size: 1.25rem;
     font-family: montserrat;
     border-radius: 1.875rem;
-    margin-left: 320px;
+    margin-left: 20rem;
 }
-
-
-
 .copyright{
-    width: 50px;
-    height: 50px;}
+    width: 3.125rem;
+    height: 3.125rem;}
 
 .grid{
     background-image: url(./assets/nosotros\ fondo_Mesa\ de\ trabajo\ 1.png);
     background-size: cover;
     background-position:center;
     width: 100%;
-    height: 1000px;
+    height: 62.5rem;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows:repeat(8,1fr);
 }
 
 .grid img{
-    width: 950px;
-    height: 950px;
-    padding-top: 70px;
+    width: 59.375rem;
+    height: 59.375rem;
+    padding-top: 4.375rem;
     object-fit: contain;
     grid-column: 2/6;
     grid-row: 1/8;
 }
 
 .grid h2{
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 800;
     text-align: center;
     grid-column: 6/7;
@@ -232,7 +237,7 @@ header img{
     grid-row: 4/5;
     justify-self: center;
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .box-nosotros{
@@ -240,8 +245,8 @@ header img{
     display: flex;
     flex-direction: column;
     color: #ffffff;
-    padding: 60px 5px;
-    border-radius: 30px;
+    padding: 3.75rem .3125rem;
+    border-radius: 1.875rem;
     grid-column: 6/7;
     grid-row: 5/5;
     justify-self: center;
@@ -250,82 +255,82 @@ header img{
 }
 
 .box-nosotros h3{
-    font-size: 90px;
+    font-size: 5.625rem;
     color: #E01919;
-    margin-top: -40px; 
+    margin-top: -2.5rem; 
     font-weight: 800;
 }
 .box-nosotros .diez{
-    font-size: 70px;
+    font-size: 4.375rem;
     font-weight: 800;
     color: #E01919;
-    margin-top: -40px;
-    margin-left: -80px;
+    margin-top: -2.5rem;
+    margin-left: -5rem;
 }
 
 .box-nosotros .años{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #000000;
-    margin-top: -50px;
-    margin-left: 90px;
-    padding-bottom: 10px;
+    margin-top: -3.125rem;
+    margin-left: 5.625rem;
+    padding-bottom: .625rem;
     font-weight: 800;
 }
 
 .box-nosotros h4{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #000000;
 
 }
 
 .box-experiencia{
-    width: 490px;
-    height: 350px;
+    width: 30.625rem;
+    height: 21.875rem;
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: .9375rem;
     box-shadow: .3125rem .3125rem .9375rem .0625rem #9e9e9e;
-    padding: 60px 50px;
-    margin: 20px;
+    padding: 3.75rem 3.125rem;
+    margin: 1.25rem;
 }
 
 .box-experiencia .usuaria{
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
 }
 
 .box-experiencia img{
-    height: 50px;
-    width: 135px;
+    height: 3.125rem;
+    width: 8.4375rem;
 }
 
 .box-experiencia h1{
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .box-experiencia p{
-    font-size: 10px;
+    font-size: .625rem;
 }
 
 .container{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px;
+    margin: 3.125rem;
 }
 
 .boton-experiencia{
     background-color:#E01919 ;
     border: none;
     color: white;
-    padding: 5px 20px;  
+    padding: .3125rem 1.25rem;  
     text-decoration: none;
-    font-size: 10px;
+    font-size: .625rem;
     border-radius: 1.875rem;
-    margin: 10px;
+    margin: .625rem;
 }
 
 .container-dos{
@@ -338,21 +343,21 @@ header img{
 }
 
 .container-tres img{
-    width: 35px;
-    height: 35px;
-    margin: 0 30px;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin: 0 1.875rem;
 }
 .container-dos .logo-negro{
-    width: 160px;
-    height: 55px;
-    margin: 0 600px 0 10px;
+    width: 10rem;
+    height: 3.4375rem;
+    margin: 0 37.5rem 0 .625rem;
 }
 
 
 .footer{
     background-color: #D9D9D9;
     padding: 4.375rem;
-    height: 200px;
+    height: 12.5rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -364,16 +369,16 @@ header img{
     background-position:center;
     display: flex;
     width: 100%;
-    height: 1900px;
+    height: 118.75rem;
     align-items: center;
     text-align: center;
     flex-direction: column;
 }
 
 .UBICACION h1{
-    font-size: 130px;
+    font-size: 8.125rem;
     color: white;
-    margin-top: 150px;
+    margin-top: 9.375rem;
 }
 
 .container-ubicacion{
@@ -381,34 +386,34 @@ header img{
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 70PX;
+    padding: 3.125rem 0;
     background-color:#f3f3f3;
 }
 
 .box-ubicacion{
-        width: 1000px;
-        height: 350px;
+        width: 62.5rem;
+        height: 21.875rem;
         display: flex;
         text-align: center;
         align-items: center;
         background-color: #ffffff;
-        border-radius: 30px;
+        border-radius: 1.875rem;
         box-shadow: .3125rem .3125rem .9375rem .0625rem #9e9e9e;
-        padding: 60px 50px;
+        padding: 3.75rem 3.125rem;
 }
 
 .box-ubicacion img{
-    width: 500px;
-    height: 200px;
-    border-radius: 20px;
+    width: 31.25rem;
+    height: 12.5rem;
+    border-radius: 1.25rem;
 }
 
 .box-ubicacion div{
-    padding: 90px;
+    padding: 5.625rem;
 }
 
 .box-ubicacion h2{
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 900;
 }
 .contacto{
@@ -416,12 +421,12 @@ header img{
     background-color: #ffffff;
 }
 .contenedor-contacto{
-    width: 1200px;
-    height: 900px;
+    width: 75rem;
+    height: 56.25rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 100PX;
+    padding: 6.25rem;
     background-color:#ffffff;
     
 }
@@ -430,13 +435,13 @@ header img{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 20PX;
+    padding: 1.25rem;
 
 }
 
 label{
     font-size: 1.25rem;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 
 
 }
@@ -444,36 +449,36 @@ label{
 input,textarea{
     background-color: #EFEFEF;
     border: .125rem solid #EFEFEF;
-    height: 60px;
+    height: 3.75rem;
 }
 
 textarea{
-    height: 250px;
+    height: 15.625rem;
 }
 
 aside{
-    width: 1000px;
-    height: 900px;
+    width: 62.5rem;
+    height: 56.25rem;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     background-color:#ffffff;
     text-align: center;
-    padding: 110px 300px;
+    padding: 6.875rem 18.75rem;
 }
 
 aside h2{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 900;
 }
 
 aside p{
-    font-size: 9px;
+    font-size: .5625rem;
 }
 
 aside div{
-    margin: 50px;
+    margin: 3.125rem;
 }
 
 .copyright-dos{
@@ -482,14 +487,14 @@ aside div{
 }
 
 .copyright-dos img{
-    width: 30px;
-    height: 30px;
-    margin-right: 5px;
+    width: 1.875rem;
+    height: 1.875rem;
+    margin-right: .3125rem;
 }
 
 .logo-dos{
     width: 100%;
-    height: 30px;
+    height: 1.875rem;
 }
 
 .seccion-contacto{
@@ -502,34 +507,41 @@ aside div{
 }
 
 .titulo{
-    font-size: 100px;
+    font-size: 6.25rem;
     text-align: center;
     background-color: white;
-    padding-top: 90px;
+    padding-top: 5.625rem;
 }
 
 .enviar{
     background-color: #e9e9e9;
-    width: 70px;
-    height: 40px;
-    margin-top: 20px;
+    width: 4.375rem;
+    height: 2.5rem;
+    margin-top: 1.25rem;
 }
 
 @media (max-width:1440px){
+    
+        .navbar{
+        display: flex;
+        gap: 3.75rem;
+        padding-right: 1.25rem;
+        }
         .inicio{
         display: flex;
         width: 100%;
-        height: 900px;
+        height: 56.25rem;
         }
         header{
-        height: 60px;
+        height: 5rem;
+        padding: .25rem 3.125rem;
         }
         header img{
-        width: 100px;
-        margin: 50px;
+        width: 6.25rem;
+        margin: 3.125rem;
         }
         .inicio div{ 
-        margin: 0px 500px 0 200px;
+        margin: 0 31.25rem 0 12.5rem;
         }
         .inicio h1{
         font-size:clamp(10em, 5vw, 5em);
@@ -543,15 +555,15 @@ aside div{
         .arquitectura{
         display: flex;
         width: 100%;
-        height: 900px
+        height: 56.25rem
         }
         .arquitectura div{
-        margin: 0 200px;
+        margin: 0 12.5rem;
         }  
         .arquitectura img{
-        height: 300px;
-        width: 595px;
-        border-radius: 20px;
+        height: 18.75rem;
+        width: 37.1875rem;
+        border-radius: 1.25rem;
         margin: 0;
         } 
         .arquitectura h2{
@@ -561,77 +573,77 @@ aside div{
         .arquitectura p{
         font-weight: 300;
         text-align: center;
-        padding: 0 100px;
+        padding: 0 6.25rem;
         }
         .vestimenta{
-            height: 900px;
-            width: 100%;
-            background-size:cover;
-            background-position: center;
-            padding: 0 300px 0px 300px;
+        height: 56.25rem;
+        width: 100%;
+        background-size:cover;
+        background-position: center;
+        padding: 0 18.75rem 0 18.75rem;
         }
         .vestimenta h2{
             font-size:clamp(5em, 5vw, 5em);
-            margin-top: 350px;
-            margin-left: 460px;
+            margin-top: 21.875rem;
+            margin-left: 28.75rem;
         }
         .vestimenta p{
-            margin-left: 450px;
+            margin-left: 28.125rem;
         }
         .boton-tres{
-            margin-left: 630px;
+            margin-left: 39.375rem;
         }
         
         .gastronomia{
-            height: 900px;
+            height: 56.25rem;
             width: 100%;
-            padding: 0 200px;
+            padding: 0 12.5rem;
         }
         .gastronomia h2{
             font-size:clamp(5em, 5vw, 5em);
-            margin-top: 500px;
+            margin-top: 31.25rem;
 
         }
         .gastronomia img{
-            width: 500px;
-            height: 450px;
-            margin: 400px 0px;
+            width: 31.25rem;
+            height: 28.125rem;
+            margin: 25rem 0;
         }
         
         .boton-cuatro{
-            margin-left: 230px;
+            margin-left: 14.375rem;
         }
         aside{
-            width: 600px;
-            padding: 110px 100px;
+            width: 37.5rem;
+            padding: 6.875rem 6.25rem;
         }
 
         .box-ubicacion{
-            width: 800px;
-            height: 250px;
-            padding: 40px 50px;
-            margin: 10px;
+            width: 50rem;
+            height: 15.625rem;
+            padding: 2.5rem 3.125rem;
+            margin: .625rem;
             }
         
             .box-ubicacion img{
-                height: 150px;
+                height: 9.375rem;
             }
             
             .box-ubicacion div{
-                padding: 90px;
+                padding: 5.625rem;
             }
             
             .box-ubicacion h2{
-                font-size: 50px;
+                font-size: 3.125rem;
                 font-weight: 900;
             }
 
             .box-ubicacion p{
-                font-size: 12px;
+                font-size: .75rem;
             }
 
             .UBICACION h1{
-                font-size: 100px;
+                font-size: 6.25rem;
             }
 
             .grid{
@@ -640,107 +652,325 @@ aside div{
 
             }
             .grid img{
-                width: 850px;
-                height: 850px;
+                width: 53.125rem;
+                height: 53.125rem;
                 grid-column: 1/5;
                 grid-row: 1/10;
 
             }
             
             .grid h2{
-                font-size: 60px;
+                font-size: 3.75rem;
                 grid-column: 5/6;
                 grid-row: 3/4;
             }
             
             .grid p{
-                font-size: 10px;
+                font-size: .625rem;
                 grid-row: 4/5;
                 grid-column: 5/6;
             }
             
             .box-nosotros{
-                padding: 20px 20px;
+                padding: 1.25rem 1.25rem;
                 grid-row: 5/6;
                 grid-column: 5/6;
             }
             .box-nosotros h3{
-                font-size: 60px;
-                margin-top: -12px; 
+                font-size: 3.75rem;
+                margin-top: -0.75rem; 
             }
             .box-nosotros .diez{
-                font-size: 50px;
-                margin-top: -15px;
-                margin-left: -80px;
+                font-size: 3.125rem;
+                margin-top: -0.9375rem;
+                margin-left: -5rem;
             }
             
             .box-nosotros .años{
-                font-size: 20px;
-                margin-top: -38px;
-                margin-left: 40px;
-                padding-bottom: 10px;
+                font-size: 1.25rem;
+                margin-top: -2.375rem;
+                margin-left: 2.5rem;
+                padding-bottom: .625rem;
             }
             
             .box-nosotros h4{
-                font-size: 10px;
+                font-size: .625rem;
+            }
+            .container-dos .logo-negro{
+                margin: 0 21.875rem 0 .625rem;
             }
             
 }
 
+@media (max-width:1024px){
+
+    .container-tres img{
+        width: 1.25rem;
+        height: 1.25rem;
+        padding-left: -6.25rem;
+    }
+
+    .container-dos img{
+        width: 1.25rem;
+        height: 1.25rem;
+        padding-right: -4.375rem;
+    }   
+    .navbar{
+    display: flex;
+    gap: 3.75rem;
+    padding-right: 1.25rem;
+    }
+    .inicio{
+    display: flex;
+    width: 100%;
+    height: 56.25rem;
+    }
+    header{
+    height: 5rem;
+    padding: .25rem 3.125rem;
+    }
+    header img{
+    width: 6.25rem;
+    margin: 3.125rem;
+    }
+    .inicio div{ 
+    margin: 0 31.25rem 0 12.5rem;
+    }
+    .inicio h1{
+    font-size:clamp(10em, 5vw, 5em);
+    font-weight: bold;
+    }
+    .inicio p{
+    font-size:clamp(0.5em, 1vw, 5em);
+    font-weight: 300;
+    text-align: center;
+    }
+    .arquitectura{
+    display: flex;
+    width: 100%;
+    height: 56.25rem;
+    }
+    .arquitectura div{
+    margin: 0 12.5rem;
+    }  
+    .arquitectura img{
+    height: 18.75rem;
+    width: 37.1875rem;
+    border-radius: 1.25rem;
+    margin: 0;
+    } 
+    .arquitectura h2{
+    font-size:clamp(5em, 5vw, 5em);
+    font-weight: bold;
+    }  
+    .arquitectura p{
+    font-weight: 300;
+    text-align: center;
+    padding: 0 6.25rem;
+    }
+    .vestimenta{
+    height: 43.75rem;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    padding: 0 18.75rem 0 18.75rem;
+    }
+    .vestimenta h2{
+        font-size:3.125rem;
+        margin-top: 21.875rem;
+        margin-left: 18.125rem;
+    }
+    .vestimenta p{
+        margin-left: 18.125rem;
+    }
+    .boton-tres{
+        margin-left: 22.5rem;
+    }
+    
+    .gastronomia{
+        height: 43.75rem;
+        width: 100%;
+        padding: 0 12.5rem;
+    }
+    .gastronomia h2{
+        font-size:3.125rem;
+        margin-top: 15.625rem;
+
+    }
+    .gastronomia img{
+        width: 18.75rem;
+        height: 18.75rem;
+        margin: 12.5rem 0;
+    }
+    
+    .boton-cuatro{
+        margin-left: 8.125rem;
+    }
+    aside{
+        width: 37.5rem;
+        padding: 6.875rem 6.25rem;
+    }
+
+    .box-ubicacion{
+        width: 50rem;
+        height: 15.625rem;
+        padding: 2.5rem 3.125rem;
+        margin: .625rem;
+        }
+    
+        .box-ubicacion img{
+            height: 9.375rem;
+        }
+        
+        .box-ubicacion div{
+            padding: 5.625rem;
+        }
+        
+        .box-ubicacion h2{
+            font-size: 3.125rem;
+            font-weight: 900;
+        }
+        .box-ubicacion p{
+            font-size: .75rem;
+        }
+        .UBICACION h1{
+            font-size: 6.25rem;
+        }
+
+        .grid{
+            grid-template-columns: repeat(10,1fr);
+            grid-template-rows:repeat(10,1fr);
+
+        }
+        .grid img{
+            width: 53.125rem;
+            height: 53.125rem;
+            grid-column: 1/5;
+            grid-row: 1/10;
+
+        }
+        
+        .grid h2{
+            font-size: 3.75rem;
+            grid-column: 5/6;
+            grid-row: 3/4;
+        }
+        
+        .grid p{
+            font-size: .625rem;
+            grid-row: 4/5;
+            grid-column: 5/6;
+        }
+        
+        .box-nosotros{
+            padding: 1.25rem 1.25rem;
+            grid-row: 5/6;
+            grid-column: 5/6;
+        }
+        .box-nosotros h3{
+            font-size: 3.75rem;
+            margin-top: -0.75rem; 
+        }
+        .box-nosotros .diez{
+            font-size: 3.125rem;
+            margin-top: -0.9375rem;
+            margin-left: -5rem;
+        }
+        
+        .box-nosotros .años{
+            font-size: 1.25rem;
+            margin-top: -2.375rem;
+            margin-left: 2.5rem;
+            padding-bottom: .625rem;
+        }
+        
+        .box-nosotros h4{
+            font-size: .625rem;
+        }
+        
+}
+@media (max-width:930px){
+    .navbar{
+        gap: 20px;
+    padding-right: 0;
+    }
+    .nav{
+    padding-right: 0;
+    }
+    .container-tres{
+        margin: 0 -20px;
+    }
+    .logo-negro{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:900px){
+    .navbar{
+        gap: 20px;
+    padding-right: 0;
+    }
+    .nav{
+    padding-right: 0;
+    }
+    .container-tres{
+        margin: 0 -20px;
+    }
+    .logo-negro{
+        margin-left: 100px;
+    }
+}
 
 
 @media (max-width:768px){
         .inicio{
         width: 100%;
-        height: 500px;
+        height: 31.25rem;
         }
         header{
         justify-content: none;
         align-items: center;
-        
         }
         .navbar{
         display: flex;
-        gap: 40px;
-        padding-right: 20px;
+        gap: 2.5rem;
+        padding-right: 1.25rem;
         }
         .navbar li a{
-        font-size: 10px;
+        font-size: .625rem;
         }
         header img{
-        width: 50px;
-        margin: 50px;
+        width: 3.125rem;
+        margin: 3.125rem;
         }
         .inicio div{
-        margin: 0px 500px 0 200px;
+        margin: 0 31.25rem 0 12.5rem;
         } 
         .inicio h1{
         font-size:clamp(5em, 5vw, 5em);
-        }
-                
+        } 
         .inicio p{
         font-size:clamp(0.2em, 2vw, 5em);
         font-weight: 300;
         }
-
         .boton{
-        padding: 12px 30px;  
-        font-size: 10px;
+        padding: .75rem 1.875rem;  
+        font-size: .625rem;
         border-radius: 1.875rem;
         }
         .arquitectura{
         width: 100%;
-        height: 500px;
+        height: 31.25rem;
         }
         .arquitectura div{
-        margin: 0 50px;
+        margin: 0 3.125rem;
         }
             
         .arquitectura img{
-        height: 190px;
-        width: 295px;
-        border-radius: 20px;
-        padding-bottom: 20px;
+        height: 11.875rem;
+        width: 18.4375rem;
+        border-radius: 1.25rem;
+        padding-bottom: 1.25rem;
         } 
         .arquitectura h2{
         font-size:clamp(2em, 5vw, 5em);
@@ -750,52 +980,52 @@ aside div{
         font-size:clamp(0.5em, 1vw, 5em);
         font-weight: 300;
         text-align: center;
-        padding: 0 200px;
+        padding: 0 12.5rem;
         }
         .vestimenta{
-            height: 500px;
+            height: 31.25rem;
             width: 100%;
-            padding: 0 20px 0px 20px;
+            padding: 0 1.25rem 0 1.25rem;
         }
         .vestimenta h2{
             font-size:clamp(3em, 5vw, 5em);
-            margin-top: 150px;
-            margin-left: 370px;
+            margin-top: 9.375rem;
+            margin-left: 23.125rem;
         }
         .vestimenta p{
-            margin-left: 350px;
-            font-size: 10px;
+            margin-left: 21.875rem;
+            font-size: .625rem;
         }
         .boton-tres{
-        padding: 12px 30px;  
-        font-size: 10px;
+        padding: .75rem 1.875rem;  
+        font-size: .625rem;
         border-radius: 1.875rem;
-        margin: 0 100px 0 470px;
+        margin: 0 6.25rem 0 29.375rem;
         }
         .gastronomia{
-            height: 500px;
+            height: 31.25rem;
             width: 100%;
-            padding: 0 50px;
+            padding: 0 3.125rem;
         }
         .gastronomia h2{
             font-size:clamp(3em, 5vw, 5em);
-            margin-top: 200px;
+            margin-top: 12.5rem;
         }
         .gastronomia p{
-            font-size: 10px;
-            padding: 0 50px;
-            margin: 0 10px;
+            font-size: .625rem;
+            padding: 0 3.125rem;
+            margin: 0 .625rem;
         }
         .gastronomia img{
-            width: 300px;
-            height: 250px;
-            margin: 200px 0 0 -200px;
+            width: 18.75rem;
+            height: 15.625rem;
+            margin: 12.5rem 0 0 -12.5rem;
         }
         .boton-cuatro{
-            padding: 12px 30px;  
-            font-size: 10px;
+            padding: .75rem 1.875rem;  
+            font-size: .625rem;
             border-radius: 1.875rem;
-            margin: 0 50px 0 210px;
+            margin: 0 3.125rem 0 13.125rem;
             }
 
             .container{
@@ -807,110 +1037,113 @@ aside div{
                 grid-template-columns: repeat(8,1fr);
                 grid-template-rows:repeat(8,1fr);
                 background-size: 100%;
-                height: 800px;
+                height: 50rem;
             }
             .grid img{
-                width: 550px;
-                height: 550px;
+                width: 34.375rem;
+                height: 34.375rem;
                 grid-column: 1/6;
                 grid-row: 4/10;
             }
             
             .grid h2{
-                font-size: 30px;
+                font-size: 1.875rem;
                 grid-column: 5/6;
                 grid-row: 5/6;
             }
             
             .grid p{
-                font-size: 10px;
+                font-size: .625rem;
                 grid-row: 6/7;
                 grid-column: 5/6;
             }
             
             .box-nosotros{
-                padding: 40px 10px;
+                padding: 2.5rem .625rem;
                 grid-row: 7/8;
                 grid-column: 5/6;
-                border-radius: 20px;
+                border-radius: 1.25rem;
             }
             .box-nosotros h3{
-                font-size: 40px;
-                margin-top: -30px; 
+                font-size: 2.5rem;
+                margin-top: -1.875rem; 
             }
             .box-nosotros .diez{
-                font-size: 30px;
-                margin-top: -10px;
-                margin-left: -30px;
+                font-size: 1.875rem;
+                margin-top: -0.625rem;
+                margin-left: -1.875rem;
             }
             
             .box-nosotros .años{
-                font-size: 10px;
-                margin-top: -20px;
-                margin-left: 40px;
-                padding-bottom: 10px;
+                font-size: .625rem;
+                margin-top: -1.25rem;
+                margin-left: 2.5rem;
+                padding-bottom: .625rem;
             }
             
             .box-nosotros h4{
-                font-size: 10px;
+                font-size: .625rem;
             }
             
             .container-tres img{
-                width: 25px;
-                height: 25px;
-                margin: 0 10px;
+                width: 1.5625rem;
+                height: 1.5625rem;
+                margin: 0 .625rem;
             }
             .container-dos .logo-negro{
-                width: 80px;
-                height: 25px;
-                margin: 0 100px 0 10px;
+                width: 5rem;
+                height: 1.5625rem;
+                margin: 0 6.25rem 0 .625rem;
             }
             .footer{
-                height: 130px;
+                height: 8.125rem;
             }
             .copyright{
-                width: 30px;
-                height: 30px;
+                width: 1.875rem;
+                height: 1.875rem;
             }
             .container-dos p{
-                font-size: 12px;
+                font-size: .75rem;
+            }
+            .container-ubicacion{
+                padding: 0;
             }
             .UBICACION{
-                height: 800px;
+                height: 50rem;
             }
             
             .UBICACION h1{
-                font-size: 60px;
-                margin-top: 90px;
+                font-size: 3.75rem;
+                margin-top: 5.625rem;
             }
             .box-ubicacion{
-                width: 600px;
-                height: 250px;
-                padding: 60px 50px;
+                width: 37.5rem;
+                height: 15.625rem;
+                padding: 3.75rem 3.125rem;
             }
             .box-ubicacion img{
-                width: 300px;
-                height: 150px;
-                border-radius: 10px;
+                width: 18.75rem;
+                height: 9.375rem;
+                border-radius: .625rem;
             }
             .box-ubicacion div{
-                padding: 90px;
+                padding: 5.625rem;
             }
             .box-ubicacion h2{
-                font-size: 50px;
+                font-size: 3.125rem;
                 font-weight: 900;
             }
             .box-ubicacion p{
-                font-size: 10px;
+                font-size: .625rem;
             }
 
         aside{
-            width: 200px;
-            padding: 110px 100px;
+            width: 12.5rem;
+            padding: 6.875rem 6.25rem;
         }
 
         .titulo {
-            font-size: 50px;
+            font-size: 3.125rem;
         }
 }
 
@@ -918,130 +1151,108 @@ aside div{
     .inicio{
     background-image: url(./assets/samurai\ chico_Mesa\ de\ trabajo\ 1.png);
     width: 100%;
-    height: 220px;
+    height: 13.75rem;
     }
     header{
-    height: 40px;
+        width: 100%;
     }
     .navbar{
-    display:none;
-    }
-    header img{
-    width: 40px;
-    margin: 20px;
-    }
-    .inicio div{
-    margin: 100px 30px 0 30px;
-    }
-    .inicio h1{
-    font-size:40px;
-    }
-    .inicio p{
-    font-size:6px;
-    font-weight: 500;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: -10px;
-    }
-    .boton{
-    padding: 3px 10px;  
-    font-size: 5px;
-    margin: 20px;
-    }
+        display:none;
+        }
     .arquitectura{
-        height: 210px;
+        height: 13.125rem;
         } 
         .arquitectura img{
-        width: 100px;
+        width: 6.25rem;
         } 
         .arquitectura h2{
-        font-size:20px;
-        margin-top: -100px;
+        font-size:1.25rem;
+        margin-top: -6.25rem;
         } 
         .arquitectura p{
-        font-size:5px;
-        padding: 0 30px;
+        font-size:.3125rem;
+        padding: 0 1.875rem;
         }
 
         .vestimenta{
-            height: 210px;
+            height: 13.125rem;
             width: 100%;
         }
         
         .vestimenta h2{
-            font-size: 15px;
-            margin-left: 170px;
-            margin-top: 80px;
+            font-size: .9375rem;
+            margin-left: 10.625rem;
+            margin-top: 5rem;
 
         }
         
         .vestimenta p{
-            font-size: 5px;
+            font-size: .3125rem;
             text-align: center;
-            margin-left: 160px;
+            margin-left: 10rem;
         }
         
         .boton-tres{
-            padding: 3px 10px;  
-            font-size: 5px;
-            margin: 20px;
-            margin-left: 180px;
+            padding: .1875rem .625rem;  
+            font-size: .3125rem;
+            margin: 1.25rem;
+            margin-left: 11.25rem;
         }
         .gastronomia{
-            height: 210px;
+            height: 13.125rem;
             width: 100%;
-            padding: 0 20px;
+            padding: 0 1.25rem;
         }
         .gastronomia div{
-            height: 210px;
+            height: 13.125rem;
             width: 100%;
         }
         
         .gastronomia h2{
-            font-size: 15px;
-            margin-top: 30px;
+            font-size: .9375rem;
+            margin-top: 1.875rem;
         }
         .gastronomia p{
-            font-size: 5px;
-            padding: 0 100px;
-            margin-left: -100px;
+            font-size: .3125rem;
+            padding: 0 6.25rem;
+            margin-left: -6.25rem;
         }
         .gastronomia img{
-            width: 100px;
-            height: 100px;
+            width: 6.25rem;
+            height: 6.25rem;
         }
         
         .boton-cuatro{
-            padding: 3px 10px;  
-            font-size: 5px;
+            padding: .1875rem .625rem;  
+            font-size: .3125rem;
         }
 
         .container-tres img{
-            width: 15px;
-            height: 15px;
-            margin: 0 10px;
+            width: .9375rem;
+            height: .9375rem;
+            margin: 0 .625rem;
         }
         .container-dos .logo-negro{
             width: 100%;
-            height: 15px;
-            margin: 0 10px 0 0px;
+            height: .9375rem;
+            margin: 0 .625rem 0 0px;
         }
         .footer{
-            height: 200px;
+            height: 12.5rem;
         }
         .copyright{
-            width: 10px;
-            height: 10px;
+            width: .625rem;
+            height: .625rem;
         }
         .container-dos p{
-            font-size: 5px;
+            font-size: .3125rem;
         }
 
         
         .contenedor-contacto{
             width: auto;
-            height: 300px;
-            padding: 1PX;
+            height: 18.75rem;
+            padding: .0625rem;
 
             
         }
@@ -1050,74 +1261,74 @@ aside div{
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
-            padding: 20PX;
+            padding: 1.25rem;
         
         }
         
         label{
-            font-size: 7px;
-            padding-top: 10px;
+            font-size: .4375rem;
+            padding-top: .625rem;
         
         
         }
         
         input,textarea{
-            font-size: 7px;
-            height: 20px;
+            font-size: .4375rem;
+            height: 1.25rem;
         }
         
         textarea{
-            height: 70px;
+            height: 4.375rem;
         }
         
         aside{
             width: auto;
-            height: 200px;
+            height: 12.5rem;
             flex-direction: row;
-            padding: 0 30px;
+            padding: 0 1.875rem;
         }
         
         aside h2{
-            font-size: 10px;
+            font-size: .625rem;
             font-weight: 900;
             
         }
         
         aside p{
-            font-size: 4px;
+            font-size: .25rem;
         }
         
         aside div{
-            margin: 1px;
-            padding: 10px 5px;
+            margin: .0625rem;
+            padding: .625rem .3125rem;
         }
     
         
         .copyright-dos img{
-            width: 30px;
-            height: 30px;
-            margin-right: 5px;
+            width: 1.875rem;
+            height: 1.875rem;
+            margin-right: .3125rem;
         }
         
         .logo-dos{
-            width: 56px;
-            height: 20px;
+            width: 3.5rem;
+            height: 1.25rem;
         }
         
         .seccion-contacto{
-            height: 200px;
+            height: 12.5rem;
         }
         
         .titulo{
-            font-size: 20px;;
-            padding-top: 20px;
+            font-size: 1.25rem;
+            padding-top: 1.25rem;
         }
         
         .enviar{
             background-color: #e9e9e9;
-            width: 70px;
-            height: 40px;
-            margin-top: 20px;
+            width: 4.375rem;
+            height: 2.5rem;
+            margin-top: 1.25rem;
         }
 
         .contacto{
@@ -1126,339 +1337,358 @@ aside div{
         }
 
         .UBICACION{
-            height: 300px;
+            height: 21.875rem;
         }
         
         .UBICACION h1{
-            font-size: 20px;
-            margin-top: 20px;
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
         }
+        .container-ubicacion{
+            padding: 0;}
+
         .box-ubicacion{
-            width: 80px;
-            height: 150px;
-            border-radius: 8px;
-            padding: 20px 20px;
+            width: 5rem;
+            height: 9.375rem;
+            border-radius: .5rem;
+            padding: 1.25rem 3.125rem;
             flex-direction: column;
+            margin-left: 1.5625rem;
         }
         .box-ubicacion img{
-            width: 50px;
-            height: 30px;
-            border-radius: 5px;
+            width: 3.125rem;
+            height: 1.875rem;
+            border-radius: .3125rem;
         }
         .box-ubicacion div{
-            padding: 1px;
-            margin-top: 5px;
+            padding: .0625rem;
+            margin-top: .3125rem;
         }
         .box-ubicacion h2{
-            font-size: 13px;
+            font-size: .8125rem;
             font-weight: 900;
         }
         .box-ubicacion p{
-            font-size: 4px;
+            font-size: .25rem;
             font-weight: 700;
         }
         .container-ubicacion{
             flex-direction: row;
-            padding: 10px 0px;
+            padding: .625rem 0;
         }
 
     .seccion-ubicacion{
-        height: 300px;
+        height: 18.75rem;
         background-color: #f0f0f0;
     }
 
     .box-experiencia{
-        width: 290px;
-        height: 150px;
-        border-radius: 8px;
-        padding: 10px 20px;
-        margin: 20px;
+        width: 18.125rem;
+        height: 9.375rem;
+        border-radius: .5rem;
+        padding: .625rem 1.25rem;
+        margin: 1.25rem;
     }
     
     .box-experiencia .usuaria{
-        width: 40px;
-        height: 40px;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
     .box-experiencia img{
-        height: 20px;
-        width: 65px;
+        height: 1.25rem;
+        width: 4.0625rem;
     }
     
     .box-experiencia h1{
-        font-size: 10px;
+        font-size: .625rem;
     }
     
     .box-experiencia p{
-        font-size: 6px;
+        font-size: .375rem;
     }
     
     
     .boton-experiencia{
-        padding: 2px 5px;  
-        font-size: 8px;
+        padding: .125rem .3125rem;  
+        font-size: .5rem;
         border-radius: 1.875rem;
-        margin: 10px;
+        margin: .625rem;
     }
 
     .grid{
         grid-template-columns: repeat(8,1fr);
         grid-template-rows:repeat(8,1fr);
         background-size: 100%;
-        height: 500px;
+        height: 31.25rem;
     }
     .grid img{
-        width: 270px;
-        height: 370px;
+        width: 16.875rem;
+        height: 23.125rem;
         grid-column: 3/9;
         grid-row: 3/8;
     }
     
     .grid h2{
-        font-size: 30px;
+        font-size: 1.875rem;
         grid-column: 3/8;
         grid-row: 3/5;
     }
     
     .grid p{
-        font-size: 6px;
+        font-size: .375rem;
         grid-row: 7/8;
         grid-column: 3/9;
     }
 
     .box-nosotros{
-        padding: 1px 1px;
+        padding: .0625rem .0625rem;
         grid-row: 4/4;
         grid-column: 3/3;
         object-fit: contain;
-        border-radius: 13px;
+        border-radius: .8125rem;
     }
     .box-nosotros h3{
-        font-size: 20px;
-        margin-top: 5px; 
+        font-size: 1.25rem;
+        margin-top: .3125rem; 
     }
     .box-nosotros .diez{
-        font-size: 30px;
-        margin-top: -1px;
-        margin-left: -20px;
+        font-size: 1.875rem;
+        margin-top: -0.0625rem;
+        margin-left: -1.25rem;
     }
     
     .box-nosotros .años{
-        font-size: 10px;
-        margin-top: -18px;
-        margin-left: 40px;
-        padding-bottom: 10px;
+        font-size: .625rem;
+        margin-top: -1.125rem;
+        margin-left: 2.5rem;
+        padding-bottom: .625rem;
     }
     
     .box-nosotros h4{
-        font-size: 10px;
+        font-size: .625rem;
     }
+    .list{
+        color: #ffffff;
+        display: flex;
+        margin-left: 11.25rem;
+    }
+
 }
+
 
 @media (max-width:390px){
         .inicio{
         background-image: url(./assets/samurai\ chico_Mesa\ de\ trabajo\ 1.png);
         width: 100%;
-        height: 220px;
+        height: 13.75rem;
         }
         header{
-        height: 40px;
+        height: 2.5rem;
+
         }
         .navbar{
         display:none;
+        justify-content: space-between;
+        
         }
         header img{
-        width: 40px;
-        margin: 20px;
+        width: 2.5rem;
+        margin: 1.25rem;
         }
         .inicio div{
-        margin: 100px 30px 0 30px;
+        margin: 6.25rem 1.875rem 0 1.875rem;
         }
         .inicio h1{
-        font-size:40px;
+        font-size:2.5rem;
         }
         .inicio p{
-        font-size:6px;
+        color: #000000;
+        font-size:.375rem;
         font-weight: 500;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: -10px;
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;
+        margin-bottom: -0.625rem;
         }
         .boton{
-        padding: 3px 10px;  
-        font-size: 5px;
-        margin: 20px;
+        padding: .1875rem .625rem;  
+        font-size: .3125rem;
+        margin: 1.25rem;
         }
         .arquitectura{
-            height: 210px;
+            height: 13.125rem;
             } 
             .arquitectura img{
-            width: 100px;
+            width: 6.25rem;
             } 
             .arquitectura h2{
-            font-size:20px;
-            margin-top: -100px;
+            font: size 20%;;
+            margin-top: -6.25rem;
             } 
             .arquitectura p{
-            font-size:5px;
-            padding: 0 30px;
+            font-size:.3125rem;
+            padding: 0 1.875rem;
             }
 
             .vestimenta{
-                height: 210px;
+                height: 13.125rem;
                 width: 100%;
             }
             
             .vestimenta h2{
-                font-size: 15px;
-                margin-left: 170px;
-                margin-top: 80px;
+                font-size: .9375rem;
+                margin-left: 13.75rem;
+                margin-top: 5rem;
 
             }
             
             .vestimenta p{
-                font-size: 5px;
-                text-align: center;
-                margin-left: 160px;
+                font-size: .3125rem;
+                margin-left: 11.875rem;
+                margin-bottom: -1.875rem;
             }
             
             .boton-tres{
-                padding: 3px 10px;  
-                font-size: 5px;
-                margin: 20px;
-                margin-left: 180px;
+                padding: .1875rem .625rem;  
+                font-size: .3125rem;
+                margin-left: 15.625rem;
             }
             .gastronomia{
-                height: 210px;
+                height: 13.125rem;
                 width: 100%;
-                padding: 0 20px;
+                padding: 0 1.25rem;
             }
             .gastronomia div{
-                height: 210px;
+                height: 13.125rem;
                 width: 100%;
             }
             
             .gastronomia h2{
-                font-size: 15px;
-                margin-top: 30px;
+                font-size: .9375rem;
+                margin-top: 5rem;
+                margin-left: 3.125rem;
             }
             .gastronomia p{
-                font-size: 5px;
-                padding: 0 100px;
-                margin-left: -100px;
+                font-size: .3125rem;
+                margin-right: -5rem;
             }
             .gastronomia img{
-                width: 100px;
-                height: 100px;
+                width: 6.25rem;
+                height: 6.25rem;
+                margin-left: .625rem;
+                margin-top: 4.375rem;
             }
             
             .boton-cuatro{
-                padding: 3px 10px;  
-                font-size: 5px;
+                padding: .1875rem .625rem;  
+                font-size: .3125rem;
+                margin-left: 5.625rem;
             }
 
             .container-tres img{
-                width: 15px;
-                height: 15px;
-                margin: 0 10px;
+                width: .9375rem;
+                height: .9375rem;
+                margin: 0 .625rem;
             }
             .container-dos .logo-negro{
                 width: 100%;
-                height: 15px;
-                margin: 0 10px 0 0px;
+                height: .9375rem;
+                margin: 0 .625rem 0 0;
             }
             .footer{
-                height: 200px;
+                height: 12.5rem;
             }
             .copyright{
-                width: 10px;
-                height: 10px;
+                width: .625rem;
+                height: .625rem;
             }
             .container-dos p{
-                font-size: 5px;
+                font-size: .3125rem;
             }
 
             
             .contenedor-contacto{
                 width: auto;
-                height: 300px;
-                padding: 1PX;
+                height: 18.75rem;
+                padding: .0625rem;
 
                 
             }
-            
+            .container-ubicacion{
+                padding: 0;
+            }
             .input-group{
                 display: flex;
                 flex-direction: column;
                 flex-wrap: nowrap;
-                padding: 20PX;
+                padding: 1.25rem;
             
             }
             
             label{
-                font-size: 7px;
-                padding-top: 10px;
+                font-size: .4375rem;
+                padding-top: .625rem;
             
             
             }
             
             input,textarea{
-                font-size: 7px;
-                height: 20px;
+                font-size: .4375rem;
+                height: 1.25rem;
             }
             
             textarea{
-                height: 70px;
+                height: 4.375rem;
             }
             
             aside{
                 width: auto;
-                height: 200px;
+                height: 12.5rem;
                 flex-direction: row;
-                padding: 0 30px;
+                padding: 0 1.875rem;
             }
             
             aside h2{
-                font-size: 10px;
+                font-size: .625rem;
                 font-weight: 900;
                 
             }
             
             aside p{
-                font-size: 4px;
+                font-size: .25rem;
             }
             
             aside div{
-                margin: 1px;
-                padding: 10px 5px;
+                margin: .0625rem;
+                padding: .625rem .3125rem;
             }
         
             
             .copyright-dos img{
-                width: 30px;
-                height: 30px;
-                margin-right: 5px;
+                width: 1.875rem;
+                height: 1.875rem;
+                margin-right: .3125rem;
             }
             
             .logo-dos{
-                width: 56px;
-                height: 20px;
+                width: 3.5rem;
+                height: 1.25rem;
             }
             
             .seccion-contacto{
-                height: 200px;
+                height: 12.5rem;
             }
             
             .titulo{
-                font-size: 20px;;
-                padding-top: 20px;
+                font-size: 1.25rem;
+                padding-top: 1.25rem;
             }
             
             .enviar{
                 background-color: #e9e9e9;
-                width: 70px;
-                height: 40px;
-                margin-top: 20px;
+                width: 4.375rem;
+                height: 2.5rem;
+                margin-top: 1.25rem;
             }
 
             .contacto{
@@ -1467,131 +1697,509 @@ aside div{
             }
 
             .UBICACION{
-                height: 300px;
+                height: 18.75rem;
             }
             
             .UBICACION h1{
-                font-size: 20px;
-                margin-top: 20px;
+                font-size: 1.25rem;
+                margin-top: 1.25rem;
             }
             .box-ubicacion{
-                width: 80px;
-                height: 150px;
-                border-radius: 8px;
-                padding: 20px 20px;
+                width: 6.25rem;
+                height: 9.375rem;
+                border-radius: .5rem;
+                padding: 1.25rem 1.25rem;
                 flex-direction: column;
+                margin-left: .9375rem;
             }
             .box-ubicacion img{
-                width: 50px;
-                height: 30px;
-                border-radius: 5px;
+                width: 3.125rem;
+                height: 1.875rem;
+                border-radius: .3125rem;
             }
             .box-ubicacion div{
-                padding: 1px;
-                margin-top: 5px;
+                padding: .0625rem;
+                margin-top: .3125rem;
             }
             .box-ubicacion h2{
-                font-size: 13px;
+                font-size: .8125rem;
                 font-weight: 900;
             }
             .box-ubicacion p{
-                font-size: 4px;
+                font-size: .25rem;
                 font-weight: 700;
             }
             .container-ubicacion{
                 flex-direction: row;
-                padding: 10px 0px;
+                padding: .625rem 0;
             }
 
         .seccion-ubicacion{
-            height: 300px;
+            height: 18.75rem;
             background-color: #f0f0f0;
         }
 
         .box-experiencia{
-            width: 290px;
-            height: 150px;
-            border-radius: 8px;
-            padding: 10px 20px;
-            margin: 20px;
+            width: 18.125rem;
+            height: 9.375rem;
+            border-radius: .5rem;
+            padding: .625rem 1.25rem;
+            margin: 1.25rem;
         }
         
         .box-experiencia .usuaria{
-            width: 40px;
-            height: 40px;
+            width: 2.5rem;
+            height: 2.5rem;
         }
         
         .box-experiencia img{
-            height: 20px;
-            width: 65px;
+            height: 1.25rem;
+            width: 4.0625rem;
         }
         
         .box-experiencia h1{
-            font-size: 10px;
+            font-size: .625rem;
         }
         
         .box-experiencia p{
-            font-size: 6px;
+            font-size: .375rem;
         }
         
         
         .boton-experiencia{
-            padding: 2px 5px;  
-            font-size: 8px;
+            padding: .125rem .3125rem;  
+            font-size: .5rem;
             border-radius: 1.875rem;
-            margin: 10px;
+            margin: .625rem;
         }
 
         .grid{
             grid-template-columns: repeat(8,1fr);
             grid-template-rows:repeat(8,1fr);
             background-size: 100%;
-            height: 500px;
+            height: 31.25rem;
         }
         .grid img{
-            width: 270px;
-            height: 370px;
+            width: 16.875rem;
+            height: 23.125rem;
             grid-column: 3/9;
             grid-row: 3/8;
         }
         
         .grid h2{
-            font-size: 30px;
+            font-size: 1.875rem;
             grid-column: 3/8;
             grid-row: 3/5;
         }
         
         .grid p{
-            font-size: 6px;
+            font-size: .375rem;
             grid-row: 7/8;
             grid-column: 3/9;
         }
 
         .box-nosotros{
-            padding: 1px 1px;
+            padding: .0625rem .0625rem;
             grid-row: 4/4;
             grid-column: 3/3;
             object-fit: contain;
             border-radius: 13px;
         }
         .box-nosotros h3{
-            font-size: 20px;
-            margin-top: 5px; 
+            font-size: 1.25rem;
+            margin-top: .3125rem; 
         }
         .box-nosotros .diez{
-            font-size: 30px;
-            margin-top: -1px;
-            margin-left: -20px;
+            font-size: 1.875rem;
+            margin-top: -0.0625rem;
+            margin-left: -1.25rem;
         }
         
         .box-nosotros .años{
-            font-size: 10px;
-            margin-top: -18px;
-            margin-left: 40px;
-            padding-bottom: 10px;
+            font-size: .625rem;
+            margin-top: -1.125rem;
+            margin-left: 2.5rem;
+            padding-bottom: .625rem;
         }
         
         .box-nosotros h4{
-            font-size: 10px;
+            font-size: .625rem;
         }
+
+        .list{
+            color: #ffffff;
+            display: flex;
+            margin-left: 12.5rem;
+        }
+        .container-dos .logo-negro{
+            width: 3.125rem;
+            height: .9375rem;
+            margin: 0 3.125rem 0 .625rem;
+        }
+}
+
+
+@media (max-width:390px){
+    .inicio{
+    background-image: url(./assets/samurai\ chico_Mesa\ de\ trabajo\ 1.png);
+    width: 100%;
+    height: 13.75rem;
+    }
+    header{
+    height: 2.5rem;
+
+    }
+    .navbar{
+    display:none;
+    justify-content: space-between;
+    
+    }
+    header img{
+    width: 2.5rem;
+    margin: 1.25rem;
+    }
+    .inicio div{
+    margin: 6.25rem 1.875rem 0 1.875rem;
+    }
+    .inicio h1{
+    font-size:2.5rem;
+    }
+    .inicio p{
+    color: #000000;
+    font-size:.375rem;
+    font-weight: 500;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    margin-bottom: -0.625rem;
+    }
+    .boton{
+    padding: .1875rem .625rem;  
+    font-size: .3125rem;
+    margin: 1.25rem;
+    }
+    .arquitectura{
+        height: 13.125rem;
+        } 
+        .arquitectura img{
+        width: 6.25rem;
+        } 
+        .arquitectura h2{
+        font: size 20%;;
+        margin-top: -6.25rem;
+        } 
+        .arquitectura p{
+        font-size:.3125rem;
+        padding: 0 1.875rem;
+        }
+
+        .vestimenta{
+            height: 13.125rem;
+            width: 100%;
+        }
+        
+        .vestimenta h2{
+            font-size: .9375rem;
+            margin-left: 13.75rem;
+            margin-top: 5rem;
+
+        }
+        
+        .vestimenta p{
+            font-size: .3125rem;
+            margin-left: 11.875rem;
+            margin-bottom: -1.875rem;
+        }
+        
+        .boton-tres{
+            padding: .1875rem .625rem;  
+            font-size: .3125rem;
+            margin-left: 15.625rem;
+        }
+        .gastronomia{
+            height: 13.125rem;
+            width: 100%;
+            padding: 0 1.25rem;
+        }
+        .gastronomia div{
+            height: 13.125rem;
+            width: 100%;
+        }
+        
+        .gastronomia h2{
+            font-size: .9375rem;
+            margin-top: 5rem;
+            margin-left: 3.125rem;
+        }
+        .gastronomia p{
+            font-size: .3125rem;
+            margin-right: -5rem;
+        }
+        .gastronomia img{
+            width: 6.25rem;
+            height: 6.25rem;
+            margin-left: .625rem;
+            margin-top: 4.375rem;
+        }
+        
+        .boton-cuatro{
+            padding: .1875rem .625rem;  
+            font-size: .3125rem;
+            margin-left: 5.625rem;
+        }
+
+        .container-tres{
+            margin: 0 -0.625rem;
+        }
+
+        .container-tres img{
+            width: .9375rem;
+            height: .9375rem;
+            margin: 0 .625rem;
+        }
+        .container-dos .logo-negro{
+            width: 100%;
+            height: .9375rem;
+            margin: 0 .625rem 0 0;
+        }
+        .footer{
+            height: 12.5rem;
+        }
+        .copyright{
+            width: .625rem;
+            height: .625rem;
+        }
+        .container-dos p{
+            font-size: .3125rem;
+        }
+
+        
+        .contenedor-contacto{
+            width: auto;
+            height: 18.75rem;
+            padding: .0625rem;
+
+            
+        }
+        .container-ubicacion{
+            padding: 0;
+        }
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            padding: 1.25rem;
+        
+        }
+        
+        label{
+            font-size: .4375rem;
+            padding-top: .625rem;
+        
+        
+        }
+        
+        input,textarea{
+            font-size: .4375rem;
+            height: 1.25rem;
+        }
+        
+        textarea{
+            height: 4.375rem;
+        }
+        
+        aside{
+            width: auto;
+            height: 12.5rem;
+            flex-direction: row;
+            padding: 0 1.875rem;
+        }
+        
+        aside h2{
+            font-size: .625rem;
+            font-weight: 900;
+            
+        }
+        
+        aside p{
+            font-size: .25rem;
+        }
+        
+        aside div{
+            margin: .0625rem;
+            padding: .625rem .3125rem;
+        }
+    
+        
+        .copyright-dos img{
+            width: 1.875rem;
+            height: 1.875rem;
+            margin-right: .3125rem;
+        }
+        
+        .logo-dos{
+            width: 3.5rem;
+            height: 1.25rem;
+        }
+        
+        .seccion-contacto{
+            height: 12.5rem;
+        }
+        
+        .titulo{
+            font-size: 1.25rem;
+            padding-top: 1.25rem;
+        }
+        
+        .enviar{
+            background-color: #e9e9e9;
+            width: 4.375rem;
+            height: 2.5rem;
+            margin-top: 1.25rem;
+        }
+
+        .contacto{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .UBICACION{
+            height: 18.75rem;
+        }
+        
+        .UBICACION h1{
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+        }
+        .box-ubicacion{
+            width: 6.25rem;
+            height: 9.375rem;
+            border-radius: .5rem;
+            padding: 1.25rem 1.25rem;
+            flex-direction: column;
+            margin-left: .9375rem;
+        }
+        .box-ubicacion img{
+            width: 3.125rem;
+            height: 1.875rem;
+            border-radius: .3125rem;
+        }
+        .box-ubicacion div{
+            padding: .0625rem;
+            margin-top: .3125rem;
+        }
+        .box-ubicacion h2{
+            font-size: .8125rem;
+            font-weight: 900;
+        }
+        .box-ubicacion p{
+            font-size: .25rem;
+            font-weight: 700;
+        }
+        .container-ubicacion{
+            flex-direction: row;
+            padding: .625rem 0;
+        }
+
+    .seccion-ubicacion{
+        height: 18.75rem;
+        background-color: #f0f0f0;
+    }
+
+    .box-experiencia{
+        width: 18.125rem;
+        height: 9.375rem;
+        border-radius: .5rem;
+        padding: .625rem 1.25rem;
+        margin: 1.25rem;
+    }
+    
+    .box-experiencia .usuaria{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .box-experiencia img{
+        height: 1.25rem;
+        width: 4.0625rem;
+    }
+    
+    .box-experiencia h1{
+        font-size: .625rem;
+    }
+    
+    .box-experiencia p{
+        font-size: .375rem;
+    }
+    
+    
+    .boton-experiencia{
+        padding: .125rem .3125rem;  
+        font-size: .5rem;
+        border-radius: 1.875rem;
+        margin: .625rem;
+    }
+
+    .grid{
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows:repeat(8,1fr);
+        background-size: 100%;
+        height: 31.25rem;
+    }
+    .grid img{
+        width: 16.875rem;
+        height: 23.125rem;
+        grid-column: 3/9;
+        grid-row: 3/8;
+    }
+    
+    .grid h2{
+        font-size: 1.875rem;
+        grid-column: 3/8;
+        grid-row: 3/5;
+    }
+    
+    .grid p{
+        font-size: .375rem;
+        grid-row: 7/8;
+        grid-column: 3/9;
+    }
+
+    .box-nosotros{
+        padding: .0625rem .0625rem;
+        grid-row: 4/4;
+        grid-column: 3/3;
+        object-fit: contain;
+        border-radius: 13px;
+    }
+    .box-nosotros h3{
+        font-size: 1.25rem;
+        margin-top: .3125rem; 
+    }
+    .box-nosotros .diez{
+        font-size: 1.875rem;
+        margin-top: -0.0625rem;
+        margin-left: -1.25rem;
+    }
+    
+    .box-nosotros .años{
+        font-size: .625rem;
+        margin-top: -1.125rem;
+        margin-left: 2.5rem;
+        padding-bottom: .625rem;
+    }
+    
+    .box-nosotros h4{
+        font-size: .625rem;
+    }
+
+    .list{
+        color: #ffffff;
+        display: flex;
+        margin-left: 130px;
+    }
+    .container-dos .logo-negro{
+        width: 3.125rem;
+        height: .9375rem;
+        margin: 0 3.125rem 0 .625rem;
+    }
 }

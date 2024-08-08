@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+h1{
+    font-size: 250px;
+    color: black;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-weight: 700;
+    font-family: montserrat;
+}
+
+.navbar{
+    height: 120px;
+    background-color: black;
+
+}
+
+
+.navbar-brand{
+    color: aliceblue;
+}
+.nav-link{
+    color: aliceblue;
+}
+.card {
+    border: 0;
+}
+.card-text{
+    color: black;
+    font-family: montserrat;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 130px;
+    padding-right: 200px;
+}
+
+.btn-primary{
+    background-color: rgb(255, 15, 15);
+    border-radius: 20px;
+    margin-left:600px;
+    margin-top: 30px;
+    padding: 10px 40px;
+}
+
+.card-text-dos{
+    color: black;
+    margin: 10px 600px;
+    text-align: center;
+    font-family: montserrat;
+}
+
+.container-fluid{
+    display: flex;
+
+}
+
+.vestimenta{
+    background-color: aquamarine;
+}
+
