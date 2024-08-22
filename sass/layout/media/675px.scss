@@ -1,0 +1,160 @@
+@media(max-width:675px){
+    .nav-desplegable{
+    a{
+        font-size: 15px;
+    }
+    .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+
+    nav label{
+        display: inline-flex;
+        position: absolute;
+        top:8px;
+        right: 25px;
+    }
+    nav #toggle:checked ~ .menu{
+        height: 100%;
+    }
+}
+
+.seccion-vestimenta{
+
+    h2{
+        font-size: 45px;
+        font-weight: 700;
+    }
+}
+.box-ubicacion{
+    width: 600px;
+    height: 15.625rem;
+    padding: 2.5rem 20px;
+    margin: .625rem;
+    }
+    .contenedor-contacto{
+        width: auto;
+        height: 100px;
+        padding: .0625rem;
+    }
+    
+    
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 1.25rem;
+    
+    }
+    
+    label{
+        font-size: .4375rem;
+        padding-top: .625rem;
+    
+    
+    }
+    
+    input,textarea{
+        font-size: .4375rem;
+        height: 10px;
+    }
+    
+    textarea{
+        height: 50px;
+    }
+    
+    aside{
+        width: auto;
+        height: 12.5rem;
+        flex-direction: row;
+        padding: 0 1.875rem;
+        h2{font-size: .625rem;
+            font-weight: 900;
+        }
+        p{
+            font-size: .25rem;
+        }
+        div{
+            margin: .0625rem;
+        padding: .625rem .3125rem;
+        width: 100px;
+        }
+    }
+    
+
+    .copyright-dos img{
+        width: 1.875rem;
+        height: 1.875rem;
+        margin-right: .3125rem;
+    }
+    
+    .logo-dos{
+        width: 3.5rem;
+        height: 1.25rem;
+    }
+    
+    .seccion-contacto{
+        height: 12.5rem;
+    }
+    
+    .titulo{
+        font-size: 1.25rem;
+        padding-top: 1.25rem;
+    }
+    
+    .enviar{
+        background-color: #e9e9e9;
+        width: 4.375rem;
+        height: 2.5rem;
+        margin-top: 1.25rem;
+    }
+
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contacto{
+        display: flex;
+        background-color: #ffffff;
+        align-items: center;
+        .contenedor-contacto{
+            width: 600px;
+            padding: 50px;
+        }
+}
+.UBICACION{
+    height: 50rem;
+    h1{
+        font-size: 3.75rem;
+    margin-top: 5.625rem;
+    }
+}
+
+.box-ubicacion{
+    width: 500px;
+    height: 15.625rem;
+    padding: 3.75rem 10px;
+    img{
+        width: 18.75rem;
+    height: 9.375rem;
+    border-radius: .625rem;
+    }
+    div{
+        padding: 30px;
+    }
+    h2{
+        font-size: 3.125rem;
+    font-weight: 900;
+    }
+    p{
+        font-size: .625rem;
+    }
+}
+}

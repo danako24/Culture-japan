@@ -1,0 +1,11 @@
+@media(max-width:600px){
+    .contacto{
+        display: flex;
+        background-color: #ffffff;
+        align-items: center;
+        .contenedor-contacto{
+            width: 500px;
+            padding: 50px;
+        }
+}
+}

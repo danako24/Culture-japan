@@ -1,0 +1,50 @@
+@media (max-width:700px){
+    .nav-desplegable{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        position: sticky;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: $color-nav;
+            padding: 1rem 1.5rem;
+        }
+        a{
+            font-size: map-get($tamanofuente, sm );
+            color: map-get($colores, color2 );
+        }
+        li:hover{
+            transform: scale(1.1);
+        }
+        li a:hover{
+            background-color: red;
+            border-radius: 10px;
+            padding: 10px;
+            transition: 200ms linear;
+        }
+        div ul{
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+        ul a{
+            text-decoration: none;
+        }
+        .icono{
+            color: white;
+        }
+        img{
+            width: 100px;
+            height: 35px;
+        }
+        #toggle{
+            display: none;
+        }
+        label{
+            display: none;
+        }
+    }
+}

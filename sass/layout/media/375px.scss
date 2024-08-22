@@ -1,0 +1,84 @@
+@media (max-width:375px){
+    .box-experiencia{
+        width: 250px;
+        height: 200px;
+        padding: 35px 3.125rem;
+        margin: 1.25rem;
+        h1{
+            font-size: 13px;
+        }
+        .usuaria{
+            width: 50px;
+        height: 50px;
+        }
+        p{
+            font-size: 6px;
+        }
+        img{
+            height: 20px;
+            width: 70px;
+        }
+        .boton-experiencia{
+            padding: 3px  10px;  
+            text-decoration: none;
+            font-size: .625rem;
+            border-radius: 1.875rem;
+            margin: .625rem;
+        }
+    }
+    .UBICACION{
+        height: 18.75rem;
+        h1{
+            font-size: 1.25rem;
+            margin-top: 1.25rem;
+        }
+        .box-ubicacion{
+            width: 6.25rem;
+            height: 9.375rem;
+            border-radius: .5rem;
+            padding: 1.25rem 1.25rem;
+            flex-direction: column;
+            margin-left: 0px;
+            img{
+                width: 3.125rem;
+                height: 1.875rem;
+                border-radius: .3125rem;
+            }
+            div{
+                padding: .0625rem;
+                margin-top: .3125rem;
+            }
+            h2{
+                font-size: .8125rem;
+                font-weight: 900;
+            }
+            p{
+                font-size: .25rem;
+        font-weight: 700;
+            }
+        }
+        .container-ubicacion{
+            padding: .625rem 0;
+        }
+    }
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.contacto{
+    display: flex;
+    background-color: #ffffff;
+    .contenedor-contacto{
+        width: 350px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px;
+        background-color:#ffffff;
+        
+    }
+}
+}
+
+

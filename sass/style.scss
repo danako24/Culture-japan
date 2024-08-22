@@ -1,0 +1,87 @@
+
+@import "./utilities/funciones";
+@import "./utilities/maps";
+@import "./utilities/mixin";
+@import "./utilities/variables";
+
+@import "./base/reset";
+@import "./base/fuentes";
+@import "./base/contenedor";
+
+@import "./layout/arquitectura";
+@import "./layout/aside";
+@import "./layout/contacto";
+@import "./layout/experiencia";
+@import "./layout/footer";
+@import "./layout/gastronomia";
+@import "./layout/inicio";
+@import "./layout/nosotros";
+@import "./layout/ubicacion";
+@import "./layout/vestimenta";
+@import "./layout/media/1440px.scss";
+@import "./layout/media/1024px.scss";
+@import "./layout/media/822px.scss";
+@import "./layout/media/800px.scss";
+@import "./layout/media/768px.scss";
+@import "./layout/media/700px.scss";
+@import "./layout/media/675px.scss";
+@import "./layout/media/600px.scss";
+@import "./layout/media/512px.scss";
+@import "./layout/media/500px.scss";
+@import "./layout/media/440px.scss";
+@import "./layout/media/425px.scss";
+@import "./layout/media/400px.scss";
+@import "./layout/media/375px.scss";
+@import "./layout/media/320px.scss";
+@import "./layout/media/275px.scss";
+
+
+
+
+
+@import "./components/nav";
+@import "./components/boton";
+
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 3s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+ @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+

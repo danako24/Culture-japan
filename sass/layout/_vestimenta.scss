@@ -1,0 +1,35 @@
+.seccion-vestimenta{
+    background-image: url(../assets/fondo-vestimenta.png);
+    background-color: $color-fondo;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    img{
+        width: 750px;
+        height: 750px;
+        margin-left: 150px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
+    h2{
+        font-size: map-get($tamanofuente , titulo );
+        font-weight: 700;
+    }
+    p{
+        font-size: map-get($tamanofuente, sm );
+        text-align: center;
+        padding: 20px 100px;
+    }
+    .container-tres{
+        padding: 0;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+}

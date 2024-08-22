@@ -1,0 +1,52 @@
+.UBICACION{
+    background-image: url(../assets/IMAGEN-UBICACION-01.png);
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    width: 100%;
+    height: 118.75rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    h1{
+        font-size: 8.125rem;
+        color: white;
+        margin-top: 9.375rem;
+    }
+}
+
+.container-ubicacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 3.125rem 0;
+    background-color:#f3f3f3;
+}
+
+
+
+.box-ubicacion{
+    width: 62.5rem;
+    height: 21.875rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 1.875rem;
+    box-shadow: .3125rem .3125rem .9375rem .0625rem #9e9e9e;
+    padding: 3.75rem 3.125rem;
+    
+    img{
+        width: 31.25rem;
+        height: 12.5rem;
+        border-radius: 1.25rem;
+    }
+    div{
+        padding: 5.625rem;
+    }
+    h2{
+        font-size: 5rem;
+        font-weight: 900;
+    }
+}

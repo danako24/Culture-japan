@@ -1,0 +1,53 @@
+@media(max-width:500px){
+    .contacto{
+        display: flex;
+        background-color: #ffffff;
+        align-items: center;
+        .contenedor-contacto{
+            width: 400px;
+            padding: 50px;
+        }
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            padding: 1.25rem;
+        }
+        label{
+            font-size: .4375rem;
+            padding-top: .625rem;
+        }
+        
+        input,textarea{
+            font-size: .4375rem;
+            height: 10px;
+        }
+        textarea{
+            height: 50px;
+        }
+        aside{
+            width: auto;
+            height: 12.5rem;
+            flex-direction: row;
+            padding: 0 1.875rem;
+            h2{
+                font-size: .625rem;
+            font-weight: 900;
+            }
+            p{
+                font-size: .25rem;
+            }
+            div{
+                margin: .0625rem;
+            padding: .625rem .3125rem;
+            width: 70px;
+            }
+        }
+}
+    .box-experiencia{
+        width: 350px;
+        height: 300px;
+        padding: 35px 3.125rem;
+        margin: 1.25rem;
+    }
+}

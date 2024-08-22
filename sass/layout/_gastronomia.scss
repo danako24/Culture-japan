@@ -1,0 +1,29 @@
+.seccion-gastronomia{
+    background-image: url(../assets/seccion-gastronomia.png);
+    background-color: $color-fondo;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    img{
+        width: 700px;
+        height: 700px;
+        margin-top: 300px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    h2{
+        font-size: map-get($tamanofuente , md );
+        font-weight: 700;
+    }
+    p{
+        font-size: map-get($tamanofuente, sm );
+        text-align: center;
+        padding: 20px 40px;
+    }
+}

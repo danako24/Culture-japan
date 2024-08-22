@@ -1,0 +1,32 @@
+.seccion-inicio{
+    background-image: url(../assets/inicio.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+    
+    .tracking-in-contract{
+        font-size: map-get($tamanofuente, lg );
+        text-align: center;
+        
+        
+    }
+    p{
+        font-size: map-get($tamanofuente, sm );
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 200px 600px 0 300px;
+        align-items: center;
+        margin: 0;
+    }
+    div{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

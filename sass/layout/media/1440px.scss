@@ -1,0 +1,64 @@
+@media (max-width:1440px){
+    .seccion-inicio {
+        height: 900px;
+    }
+    .seccion-gastronomia{
+        height: 900px;
+        img{
+            width: 400px;
+            height: 400px;
+            margin-top: 100px;
+        }
+        p{
+            font-size: map-get($tamanofuente, sm );
+            text-align: center;
+            padding: 20px 100px;
+        }
+    }
+    .seccion-nosotros{
+        img{
+            width: 700px;
+            height: 800px;
+            margin: 80px;
+        }
+        h2{
+                font-size: 90px;
+        }
+        p{
+            font-size:15px;
+            padding: 20px 20px;
+        }
+        .texto-nosotros{
+            display: flex;
+            flex-direction: column;
+        }
+        .box-nosotros{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 10px;
+            background-color: #e6e6e6;
+            border-radius: 30px;
+        }
+        h3{
+            font-size: 70px;
+            margin: -20px;
+        }
+        .diez{
+            font-size: 60px;
+        }
+        .texto-cuadro{
+            display: flex;
+            align-items: baseline;
+        }
+        .años{
+            font-size: 15px;
+        }
+        h4{
+            font-size: 15px;
+        }
+    }
+    aside{
+        width: 500px;
+        padding: 6.875rem 6.25rem;
+    }
+}

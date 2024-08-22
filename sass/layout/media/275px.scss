@@ -1,0 +1,35 @@
+@media (max-width:275px){
+    .box-experiencia{
+        width: 150px;
+        height: 100px;
+        padding: 10px 10px;
+        margin: 1.25rem;
+        .usuaria {
+            width: 30px;
+            height: 30px;
+        }
+        img{
+            height: 20px;
+            width: 70px;
+        }
+        h1{
+            font-size: 10px
+        }
+        p{
+            font-size: 3px;
+        }
+        .boton-experiencia{
+            padding: 2px 10px;  
+            text-decoration: none;
+            font-size: 5px;
+            border-radius: 15px;
+            margin: 0px;
+        }
+    }
+
+    
+    
+    
+    
+    
+}

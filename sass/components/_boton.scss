@@ -1,0 +1,15 @@
+.boton{
+    background-color: map-get($colores, color3 );
+    border: none;
+    color:map-get($colores, color2 );
+    text-align: center;
+    padding: 10px 20px;
+    font-size: map-get($tamanofuente, sm );
+    border-radius: 30px;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 1px 20px rgb(255, 164, 164));
+    transition: 300ms linear;
+}
