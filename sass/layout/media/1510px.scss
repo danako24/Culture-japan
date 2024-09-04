@@ -1,0 +1,17 @@
+@media (max-width:1510px){
+    .seccion-gastronomia{
+        img{
+            width: 500px;
+            height: 500px;
+            margin-top: 300px;
+        }
+        h2{
+            font-size: 60px;
+        }
+        p{
+            font-size: map-get($tamanofuente, sm );
+            text-align: center;
+            padding: 20px 80px;
+        }
+    }
+}

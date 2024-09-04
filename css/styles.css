@@ -198,7 +198,7 @@ footer {
     padding: 20px 40px; }
 
 .seccion-inicio {
-  background-image: url(../assets/inicio.jpg);
+  background-image: url(../assets/inicio.png);
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -250,7 +250,8 @@ footer {
     padding: 20px 40px; }
   .seccion-nosotros .texto-nosotros {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin: 0; }
   .seccion-nosotros .box-nosotros {
     display: flex;
     flex-direction: column;
@@ -347,11 +348,80 @@ footer {
     display: flex;
     flex-direction: column; }
 
+@media (max-width: 1600px) {
+  .seccion-nosotros {
+    background-image: url(../assets/fondo_nosotros.png);
+    background-color: #ebebeb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 1200px; }
+    .seccion-nosotros img {
+      width: 800px;
+      height: 900px;
+      margin: 100px; }
+    .seccion-nosotros img:hover {
+      transition: 2000ms linear;
+      transform: scale(1.1); }
+    .seccion-nosotros div {
+      align-items: center;
+      align-self: center; }
+    .seccion-nosotros h2 {
+      font-size: 70px;
+      font-weight: 700;
+      text-align: center; }
+    .seccion-nosotros p {
+      font-size: 1rem;
+      text-align: center;
+      padding: 20px 40px; }
+    .seccion-nosotros .texto-nosotros {
+      display: flex;
+      flex-direction: column;
+      margin: 0; }
+    .seccion-nosotros .box-nosotros {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 20px;
+      background-color: #e6e6e6;
+      border-radius: 30px; }
+    .seccion-nosotros h3 {
+      font-size: 80px;
+      text-align: center;
+      color: #E01919;
+      font-weight: 800;
+      margin: -20px; }
+    .seccion-nosotros .diez {
+      font-size: 80px;
+      color: #E01919;
+      font-weight: 900; }
+    .seccion-nosotros .texto-cuadro {
+      display: flex;
+      align-items: baseline; }
+    .seccion-nosotros .años {
+      font-size: 20px; }
+    .seccion-nosotros h4 {
+      font-size: 20px; } }
+
+@media (max-width: 1510px) {
+  .seccion-gastronomia img {
+    width: 500px;
+    height: 500px;
+    margin-top: 300px; }
+  .seccion-gastronomia h2 {
+    font-size: 60px; }
+  .seccion-gastronomia p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 80px; } }
+
 @media (max-width: 1440px) {
   .seccion-inicio {
     height: 900px; }
   .seccion-gastronomia {
     height: 900px; }
+    .seccion-gastronomia h2 {
+      font-size: 50px; }
     .seccion-gastronomia img {
       width: 400px;
       height: 400px;
@@ -361,14 +431,14 @@ footer {
       text-align: center;
       padding: 20px 100px; }
   .seccion-nosotros img {
-    width: 700px;
-    height: 800px;
-    margin: 80px; }
+    width: 600px;
+    height: 700px;
+    margin: 50px; }
   .seccion-nosotros h2 {
-    font-size: 90px; }
+    font-size: 70px; }
   .seccion-nosotros p {
-    font-size: 15px;
-    padding: 20px 20px; }
+    font-size: 12px;
+    padding: 20px 50px; }
   .seccion-nosotros .texto-nosotros {
     display: flex;
     flex-direction: column; }
@@ -392,7 +462,50 @@ footer {
     font-size: 15px; }
   aside {
     width: 500px;
-    padding: 6.875rem 6.25rem; } }
+    padding: 6.875rem 6.25rem; }
+  .seccion-vestimenta h2 {
+    font-size: 60px;
+    font-weight: 700; }
+  .seccion-vestimenta img {
+    width: 650px;
+    height: 650px;
+    margin-left: 80px; }
+  .seccion-vestimenta p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 100px; }
+  .seccion-vestimenta .container-tres {
+    padding: 0; }
+  .seccion-vestimenta .card {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 1145px) {
+  .seccion-vestimenta h2 {
+    font-size: 50px;
+    font-weight: 700; }
+  .seccion-vestimenta img {
+    width: 600px;
+    height: 600px;
+    margin-left: 60px; }
+  .seccion-vestimenta p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px 100px; }
+  .seccion-vestimenta .container-tres {
+    padding: 0; }
+  .seccion-vestimenta .card {
+    display: flex;
+    flex-direction: column; }
+  .seccion-nosotros img {
+    width: 550px;
+    height: 650px;
+    margin: 50px; }
+  .seccion-nosotros h2 {
+    font-size: 60px; }
+  .seccion-nosotros p {
+    font-size: 10px;
+    padding: 20px 50px; } }
 
 @media (max-width: 1024px) {
   .seccion-inicio {
@@ -477,8 +590,8 @@ footer {
       margin-left: 10px;
       margin-right: 20px; }
   .seccion-nosotros img {
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    height: 600px;
     margin: 40px; }
   .seccion-nosotros h2 {
     font-size: 50px; }
@@ -521,6 +634,48 @@ footer {
     flex-direction: column;
     align-items: center; } }
 
+@media (max-width: 957px) {
+  .seccion-vestimenta h2 {
+    font-size: 40px; }
+  .seccion-vestimenta p {
+    font-size: 10px; }
+  .seccion-gastronomia h2 {
+    font-size: 40px; }
+  .seccion-gastronomia img {
+    width: 300px;
+    height: 300px; }
+  .seccion-gastronomia p {
+    font-size: 10px; }
+  .seccion-arquitectura h2 {
+    font-size: 40px; }
+  .seccion-arquitectura p {
+    font-size: 10px; }
+  .seccion-nosotros {
+    height: 700px; } }
+
+@media (max-width: 880px) {
+  .seccion-nosotros img {
+    width: 430px;
+    height: 500px;
+    margin: 40px; }
+  .seccion-nosotros h2 {
+    font-size: 40px; }
+  .seccion-nosotros p {
+    font-size: 8px;
+    padding: 20px 50px; }
+  .seccion-nosotros h3 {
+    font-size: 50px;
+    margin: -20px; }
+  .seccion-nosotros .diez {
+    font-size: 50px; }
+  .seccion-nosotros .texto-cuadro {
+    display: flex;
+    align-items: baseline; }
+  .seccion-nosotros .años {
+    font-size: 15px; }
+  .seccion-nosotros h4 {
+    font-size: 15px; } }
+
 @media (max-width: 822px) {
   .box-ubicacion {
     width: 700px;
@@ -529,7 +684,26 @@ footer {
     margin: .625rem; }
   aside {
     width: 360px;
-    padding: 6.875rem 6.25rem; } }
+    padding: 6.875rem 6.25rem; }
+  .seccion-vestimenta h2 {
+    font-size: 30px; }
+  .seccion-vestimenta p {
+    font-size: 10px; }
+  .seccion-vestimenta img {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px; }
+  .seccion-gastronomia h2 {
+    font-size: 30px; }
+  .seccion-gastronomia img {
+    width: 250px;
+    height: 250px; }
+  .seccion-gastronomia p {
+    font-size: 10px; }
+  .seccion-arquitectura h2 {
+    font-size: 30px; }
+  .seccion-arquitectura p {
+    font-size: 10px; } }
 
 @media (max-width: 800px) {
   .titulo {
@@ -638,8 +812,8 @@ footer {
   .seccion-nosotros {
     height: 700px; }
     .seccion-nosotros img {
-      width: 500px;
-      height: 600px;
+      width: 350px;
+      height: 400px;
       margin: 30px; }
     .seccion-nosotros h2 {
       font-size: 30px;
@@ -685,6 +859,28 @@ footer {
   .titulo {
     font-size: 3.125rem; } }
 
+@media (max-width: 715px) {
+  .UBICACION {
+    height: 50rem; }
+    .UBICACION h1 {
+      font-size: 20px;
+      margin-top: 5.625rem; }
+    .UBICACION .box-ubicacion {
+      width: 37.5rem;
+      height: 15.625rem;
+      padding: 3.75rem 20px; }
+      .UBICACION .box-ubicacion img {
+        width: 18.75rem;
+        height: 9.375rem;
+        border-radius: .625rem; }
+      .UBICACION .box-ubicacion div {
+        padding: 60px; }
+      .UBICACION .box-ubicacion h2 {
+        font-size: 3.125rem;
+        font-weight: 900; }
+      .UBICACION .box-ubicacion p {
+        font-size: .625rem; } }
+
 @media (max-width: 700px) {
   .nav-desplegable {
     width: 100%;
@@ -722,7 +918,26 @@ footer {
     .nav-desplegable #toggle {
       display: none; }
     .nav-desplegable label {
-      display: none; } }
+      display: none; }
+  .seccion-vestimenta h2 {
+    font-size: 30px; }
+  .seccion-vestimenta p {
+    font-size: 10px; }
+  .seccion-vestimenta img {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px; }
+  .seccion-gastronomia h2 {
+    font-size: 30px; }
+  .seccion-gastronomia img {
+    width: 200px;
+    height: 200px; }
+  .seccion-gastronomia p {
+    font-size: 8px; }
+  .seccion-arquitectura h2 {
+    font-size: 30px; }
+  .seccion-arquitectura p {
+    font-size: 10px; } }
 
 @media (max-width: 675px) {
   .nav-desplegable a {
@@ -742,9 +957,6 @@ footer {
     right: 25px; }
   .nav-desplegable nav #toggle:checked ~ .menu {
     height: 100%; }
-  .seccion-vestimenta h2 {
-    font-size: 45px;
-    font-weight: 700; }
   .box-ubicacion {
     width: 600px;
     height: 15.625rem;
@@ -836,7 +1048,52 @@ footer {
     align-items: center; }
     .contacto .contenedor-contacto {
       width: 500px;
-      padding: 50px; } }
+      padding: 50px; }
+  .seccion-nosotros {
+    height: 700px; }
+    .seccion-nosotros img {
+      width: 300px;
+      height: 350px;
+      margin: 20px; }
+    .seccion-nosotros h2 {
+      font-size: 20px;
+      font-weight: 900; }
+    .seccion-nosotros p {
+      font-size: 7px;
+      padding: 20px 5px; }
+    .seccion-nosotros h3 {
+      font-size: 40px;
+      margin: -20px; }
+    .seccion-nosotros .diez {
+      font-size: 40px; }
+    .seccion-nosotros .texto-cuadro {
+      display: flex;
+      align-items: baseline; }
+    .seccion-nosotros .años {
+      font-size: 10px; }
+    .seccion-nosotros h4 {
+      font-size: 10px; } }
+
+@media (max-width: 535px) {
+  .seccion-vestimenta h2 {
+    font-size: 20px; }
+  .seccion-vestimenta p {
+    font-size: 7px; }
+  .seccion-vestimenta img {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px; }
+  .seccion-gastronomia h2 {
+    font-size: 20px; }
+  .seccion-gastronomia img {
+    width: 150px;
+    height: 150px; }
+  .seccion-gastronomia p {
+    font-size: 7px; }
+  .seccion-arquitectura h2 {
+    font-size: 20px; }
+  .seccion-arquitectura p {
+    font-size: 7px; } }
 
 @media (max-width: 512px) {
   .UBICACION {
@@ -899,7 +1156,31 @@ footer {
     width: 350px;
     height: 300px;
     padding: 35px 3.125rem;
-    margin: 1.25rem; } }
+    margin: 1.25rem; }
+  .seccion-nosotros {
+    height: 500px; }
+    .seccion-nosotros img {
+      width: 250px;
+      height: 300px;
+      margin: 20px; }
+    .seccion-nosotros h2 {
+      font-size: 15px;
+      font-weight: 900; }
+    .seccion-nosotros p {
+      font-size: 6px;
+      padding: 20px 5px; }
+    .seccion-nosotros h3 {
+      font-size: 40px;
+      margin: -20px; }
+    .seccion-nosotros .diez {
+      font-size: 40px; }
+    .seccion-nosotros .texto-cuadro {
+      display: flex;
+      align-items: baseline; }
+    .seccion-nosotros .años {
+      font-size: 10px; }
+    .seccion-nosotros h4 {
+      font-size: 10px; } }
 
 @media (max-width: 440px) {
   footer {
@@ -1160,7 +1441,35 @@ footer {
       flex-direction: column;
       flex-wrap: nowrap;
       padding: 20px;
-      background-color: #ffffff; } }
+      background-color: #ffffff; }
+  .seccion-nosotros {
+    height: 450px;
+    flex-direction: column; }
+    .seccion-nosotros img {
+      width: 220px;
+      height: 250px;
+      margin: 10px 0 -30px 0; }
+    .seccion-nosotros h2 {
+      font-size: 20px; }
+    .seccion-nosotros p {
+      font-size: 5px;
+      padding: 20px 5px; }
+    .seccion-nosotros h3 {
+      font-size: 20px;
+      margin: -5px; }
+    .seccion-nosotros .diez {
+      font-size: 20px; }
+    .seccion-nosotros .texto-cuadro {
+      display: flex;
+      align-items: baseline; }
+    .seccion-nosotros .años {
+      font-size: 8px; }
+    .seccion-nosotros h4 {
+      font-size: 8px; }
+    .seccion-nosotros .box-nosotros {
+      padding: 30px 5px;
+      background-color: #e6e6e6;
+      border-radius: 10px; } }
 
 @media (max-width: 375px) {
   .box-experiencia {
@@ -1224,7 +1533,27 @@ footer {
       flex-direction: column;
       flex-wrap: nowrap;
       padding: 20px;
-      background-color: #ffffff; } }
+      background-color: #ffffff; }
+  .seccion-vestimenta h2 {
+    font-size: 17px; }
+  .seccion-vestimenta p {
+    font-size: 6px; }
+  .seccion-vestimenta img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px; }
+  .seccion-gastronomia h2 {
+    font-size: 17px; }
+  .seccion-gastronomia img {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px; }
+  .seccion-gastronomia p {
+    font-size: 6px; }
+  .seccion-arquitectura h2 {
+    font-size: 17px; }
+  .seccion-arquitectura p {
+    font-size: 6px; } }
 
 @media (max-width: 320px) {
   .contacto {
@@ -1290,7 +1619,33 @@ footer {
     margin-top: 1.25rem; }
   .contacto {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .seccion-vestimenta h2 {
+    font-size: 15px; }
+  .seccion-vestimenta p {
+    font-size: 6px; }
+  .seccion-vestimenta img {
+    width: 170px;
+    height: 170px;
+    margin-left: 5px; }
+  .seccion-gastronomia h2 {
+    font-size: 15px; }
+  .seccion-gastronomia img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px; }
+  .seccion-gastronomia p {
+    font-size: 6px; }
+  .seccion-arquitectura h2 {
+    font-size: 15px; }
+  .seccion-arquitectura p {
+    font-size: 6px; }
+  .seccion-inicio .tracking-in-contract {
+    font-size: 70px;
+    text-align: center; }
+  .seccion-inicio p {
+    font-size: 8px;
+    text-align: center; } }
 
 @media (max-width: 275px) {
   .box-experiencia {
@@ -1313,7 +1668,33 @@ footer {
       text-decoration: none;
       font-size: 5px;
       border-radius: 15px;
-      margin: 0px; } }
+      margin: 0px; }
+  .seccion-vestimenta h2 {
+    font-size: 15px; }
+  .seccion-vestimenta p {
+    font-size: 6px; }
+  .seccion-vestimenta img {
+    width: 120px;
+    height: 120px;
+    margin-left: 5px; }
+  .seccion-gastronomia h2 {
+    font-size: 15px; }
+  .seccion-gastronomia img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px; }
+  .seccion-gastronomia p {
+    font-size: 6px; }
+  .seccion-arquitectura h2 {
+    font-size: 15px; }
+  .seccion-arquitectura p {
+    font-size: 6px; }
+  .seccion-inicio .tracking-in-contract {
+    font-size: 60px;
+    text-align: center; }
+  .seccion-inicio p {
+    font-size: 8px;
+    text-align: center; } }
 
 .nav-desplegable {
   width: 100%;

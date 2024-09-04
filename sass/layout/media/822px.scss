@@ -9,5 +9,38 @@
             width: 360px;
             padding: 6.875rem 6.25rem;
         }
-
+        .seccion-vestimenta{
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 10px;
+    }
+    img{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    }
+    .seccion-gastronomia{
+        h2{
+            font-size: 30px;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        p{
+            font-size: 10px;
+    
+        }
+    }
+    .seccion-arquitectura{
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
 }

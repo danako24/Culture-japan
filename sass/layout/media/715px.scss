@@ -1,0 +1,29 @@
+@media (max-width:715px){
+    .UBICACION{
+        height: 50rem;
+        h1{
+            font-size: 20px;
+        margin-top: 5.625rem;
+        }
+        .box-ubicacion{
+            width: 37.5rem;
+            height: 15.625rem;
+            padding: 3.75rem 20px;
+            img{
+                width: 18.75rem;
+        height: 9.375rem;
+        border-radius: .625rem;
+            }
+            div{
+                padding: 60px;
+            }
+            h2{
+                font-size: 3.125rem;
+        font-weight: 900;
+            }
+            p{
+                font-size: .625rem;
+            }
+        }
+    }
+}

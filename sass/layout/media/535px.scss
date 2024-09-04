@@ -1,0 +1,36 @@
+@media(max-width:535px){
+    .seccion-vestimenta{
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 7px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+}
+.seccion-gastronomia{
+    h2{
+        font-size: 20px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    p{
+        font-size: 7px;
+
+    }
+}
+.seccion-arquitectura{
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 7px;
+    }
+}
+}

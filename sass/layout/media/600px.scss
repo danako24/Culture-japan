@@ -8,4 +8,37 @@
             padding: 50px;
         }
 }
+.seccion-nosotros{
+    height: 700px;
+    img{
+        width: 300px;
+        height: 350px;
+        margin: 20px;
+    }
+    h2{
+            font-size: 20px;
+            font-weight: 900;
+    }
+    p{
+        font-size:7px;
+        padding: 20px 5px;
+    }
+    h3{
+        font-size: 40px;
+        margin: -20px;
+    }
+    .diez{
+        font-size: 40px;
+    }
+    .texto-cuadro{
+        display: flex;
+        align-items: baseline;
+    }
+    .años{
+        font-size: 10px;
+    }
+    h4{
+        font-size: 10px;
+    }
+}
 }

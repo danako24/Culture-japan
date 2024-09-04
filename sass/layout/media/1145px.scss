@@ -1,0 +1,40 @@
+@media (max-width:1145px){
+    .seccion-vestimenta{
+        h2{
+            font-size: 50px;
+            font-weight: 700;
+        }
+        img{
+            width: 600px;
+            height: 600px;
+            margin-left: 60px;
+        }
+        p{
+            font-size: map-get($tamanofuente, sm );
+            text-align: center;
+            padding: 20px 100px;
+        }
+        .container-tres{
+            padding: 0;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .seccion-nosotros{
+        img{
+            width: 550px;
+            height: 650px;
+            margin: 50px;
+        }
+        h2{
+                font-size: 60px;
+        }
+        p{
+            font-size:10px;
+            padding: 20px 50px;
+        }
+
+}
+}

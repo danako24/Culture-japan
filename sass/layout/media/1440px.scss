@@ -2,8 +2,12 @@
     .seccion-inicio {
         height: 900px;
     }
+    
     .seccion-gastronomia{
         height: 900px;
+        h2{
+            font-size: 50px;
+        }
         img{
             width: 400px;
             height: 400px;
@@ -17,16 +21,16 @@
     }
     .seccion-nosotros{
         img{
-            width: 700px;
-            height: 800px;
-            margin: 80px;
+            width: 600px;
+            height: 700px;
+            margin: 50px;
         }
         h2{
-                font-size: 90px;
+                font-size: 70px;
         }
         p{
-            font-size:15px;
-            padding: 20px 20px;
+            font-size:12px;
+            padding: 20px 50px;
         }
         .texto-nosotros{
             display: flex;
@@ -60,5 +64,28 @@
     aside{
         width: 500px;
         padding: 6.875rem 6.25rem;
+    }
+    .seccion-vestimenta{
+        h2{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        img{
+            width: 650px;
+            height: 650px;
+            margin-left: 80px;
+        }
+        p{
+            font-size: map-get($tamanofuente, sm );
+            text-align: center;
+            padding: 20px 100px;
+        }
+        .container-tres{
+            padding: 0;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
